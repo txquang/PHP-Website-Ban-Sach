@@ -1,0 +1,71 @@
+body
+{
+   padding: 10px 100px 5px 100px;
+
+}
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+  border-radius: 5px;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+  padding-left: -10px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+#menu a:hover {
+  background: #FFE5B4;
+  color: #333;
+  border-radius: 5px;
+}
+
+/*==Dropdown Menu==*/
+.sub-menu {
+  display: none;
+  position: absolute;
+   padding: 0;
+}
+
+#menu li {
+  position: relative;
+}
+#menu li:hover .sub-menu {
+  display: block;
+}
+.sub-menu li {
+  margin-left: 0 !important;
+   
+}
+
+/*==Menu cấp 3==*/
+.sub-menu > ul {
+  display: none !mportant;
+}
+
+input[type=search] {
+  background: #ededed url(../TOP/search-icon.png) no-repeat 9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 55px;
+ -webkit-border-radius: 10em;
+  -webkit-transition: all .5s;
+}
+input[type=search]:focus 
+{
+  width: 200px;
+  background-color: #fff;
+  border-color: #6dcff6;
+ -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+

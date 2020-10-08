@@ -1,0 +1,164 @@
+body 
+{
+	background: #eaeaea;
+	padding: 10px 100px 5px 100px;
+}
+#TieuDe
+{
+	height: 60px;
+	width: 100%;
+	clear: both;
+}
+#TieuDe h2 span 
+{
+    font-family: cursive;
+
+}
+#NoiDung
+{
+	margin-top: 10px;
+	height: 500px;
+	width: 100%;
+}
+#NoiDung1
+{
+	background: green;
+	height: auto;
+	width: 65%;
+	margin: 10px;
+	float: left;
+}
+#NoiDung2
+{
+	height: auto;
+	width: 32.3%;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: right;
+
+}
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+.ChiTiet1
+{
+	height: 145px;
+	width: 100%;
+	background: #FFFFFF;
+	border-top-left-radius: 20px;
+	border-bottom: 4px solid #e1e1e1;
+}
+.ChiTiet1 img
+{
+	height: 135px;
+    width: 99px;
+	margin: 5px;
+	float: left;
+	clear: both;
+}
+.ChiTiet1 label
+{
+	font-size: 20px;
+	margin-left: 10px;
+}
+.ChiTiet1 form p
+{
+	float: right;
+	margin-right: 20px;
+	width: auto;
+	color: #c52525;
+}
+.ChiTiet1 form p input
+{
+	margin-left: 30px;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+}
+.ChiTiet1 form label
+{
+	margin-left: 30px;
+}
+.ChiTiet1 form label .Xoa
+{
+	background: #ff5800;
+    border-radius: 5px;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.ChiTiet1 form label .Sua
+{
+	background: #ff8e2b;
+    border-radius: 5px;
+    color: #fff;
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
+}
+
+#TamTinh1
+{
+	height: 55px;
+	background: #FFFFFF;
+	width: 100%;
+	display: inline-block;
+	border-bottom: 4px solid #e1e1e1;
+}
+#TamTinh1 .TenTam1
+{
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	font-size: 20px;
+}
+#TamTinh1 .TenTam2
+{
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+#TamTinh2
+{
+	height: 60px;
+	background: #FFFFFF;
+	width: 100%;
+	display: inline-block;
+	border-bottom: 4px solid #e1e1e1;
+}
+#TamTinh2 .TenTam3
+{
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	font-size: 25px;
+}
+#TamTinh2 .TenTam4
+{
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+	font-size: 25px;
+}
+#TamTinh1 input
+{
+	height: 40px;
+	width: 340px;
+	background: #ff8e2b;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}

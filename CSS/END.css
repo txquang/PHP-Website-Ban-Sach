@@ -1,0 +1,27 @@
+
+#cuoi
+{
+  background-color: #4a4a4a ;
+  height: 75px;
+  width: 768px;
+  clear: both;
+  padding-left: 380px;
+  border-radius: 5px 20px 5px 20px;
+}
+#cuoi p
+{
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+}
+#cuoi .anh
+{
+  width: 30px;
+  height: 30px;
+ border-radius: 5px;
+}
+#cuoi #tr
+{
+  margin-left: -380px;
+  background: #89f3a0;
+}
